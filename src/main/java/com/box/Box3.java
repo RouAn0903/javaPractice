@@ -11,7 +11,7 @@ public class Box3 {
     public Box3(int length, int width, int height){
         this.length=length;
         this.width=width;
-        this.height=height;
+        this.height=height ;
     }
 
     public void print(){
