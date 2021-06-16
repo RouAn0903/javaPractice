@@ -6,5 +6,6 @@ public class HorseRunable implements Runnable{
         for (int i = 0; i < 100; i++) {
             System.out.println("RR "+i);
         }
+        System.out.println(Thread.currentThread());
     }
 }

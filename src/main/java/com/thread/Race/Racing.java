@@ -6,8 +6,9 @@ public class Racing {
         Horse h2 = new Horse();
         h2.start();
         HorseRunable h3 = new HorseRunable();
-        Thread thread = new Thread(h3);
-        thread.start();
+        Thread tr = new Thread(h3);
+        System.out.println();
+        tr.start();
         for (int i = 0; i < 100; i++) {
             System.out.println(h1+" "+i);
 

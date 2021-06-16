@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.car.CarDemo">
+  <grid id="27dc6" binding="mainPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="c5a0d" binding="northPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="North"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="7d42f" class="javax.swing.JLabel" binding="JLabel">
+            <constraints/>
+            <properties>
+              <enabled value="true"/>
+              <horizontalTextPosition value="11"/>
+              <text value="Car ID"/>
+            </properties>
+          </component>
+          <component id="d38cb" class="javax.swing.JTextField" binding="CarID">
+            <constraints/>
+            <properties>
+              <columns value="10"/>
+            </properties>
+          </component>
+          <component id="4bf2e" class="javax.swing.JButton" binding="Button">
+            <constraints/>
+            <properties>
+              <text value="Search"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="788da" class="javax.swing.JLabel" binding="Cost">
+        <constraints border-constraint="South"/>
+        <properties>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="Cost"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
